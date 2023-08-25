@@ -1,7 +1,5 @@
-# sql_challenge
 
-
-# Employee Database of Employees Employed During 1980s and 1990s!
+# Exploring Employee Database of Employees Employed During 1980s and 1990s using SQL!
 
 ![employees](images/employee_image.jpg)
  
