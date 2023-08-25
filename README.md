@@ -1,5 +1,5 @@
 # sql_challenge
-Repo for week 9 sql challenge homework
+
 
 # Employee Database of Employees Employed During 1980s and 1990s!
 
