@@ -2,24 +2,30 @@
 # Exploring Employee Database of Employees Employed During 1980s and 1990s using SQL!
 
 ![employees](images/employee_image.jpg)
- 
+ ---
 # Background Information
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
-
+---
 # Data Modeling
 Inspect the CSV files, and then sketch an Entity Relationship Diagram (ERD) of the tables. the following tool was used to create a ERD: http://www.quickdatabasediagrams.com/
+<p align="center">
+<img src="EmployeeSQL/QuickDBD_ERD.png"  >
+</p>
+---
 
 # Data Engineering
-Use the Data in the data folder create a table schema for each of the six CSV files. Be sure to do the following:
+Use the Data in the data folder create a table schema for each of the six CSV files. Schema can be found in the EmploeeSQL/data folder
+Be sure to do the following:
 -  Remember to specify the data types, primary keys, foreign keys, and other constraints.
 -  For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site.,
-            which takes two primary keys to      uniquely identify a row.
+            which takes two primary keys to uniquely identify a row.
 -  Be sure to create the tables in the correct order to handle the foreign keys.
 -  Import each CSV file into its corresponding SQL table.
 
 # Data Analysis
+Queries can be found in the EmploeeSQL/data folder
 -   List the employee number, last name, first name, sex, and salary of each employee.
 -   List the first name, last name, and hire date for the employees who were hired in 1986.
 -   List the manager of each department along with their department number, department name, employee number, last name, and first name.
